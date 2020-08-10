@@ -1,4 +1,4 @@
-package ua.khshanovskyi.springwebapp;
+package ua.khshanovskyi.springwebapp.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
