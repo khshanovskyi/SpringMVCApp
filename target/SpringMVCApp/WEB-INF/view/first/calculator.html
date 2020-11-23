@@ -5,8 +5,6 @@
     <title>Title</title>
 </head>
 <body>
-
-<p th:text="${result}"></p>
 <form action="/calculator" method="get">
     <label>
         <input type="number" name="first_operand" placeholder="input first operand">
@@ -29,7 +27,7 @@
         <input type="number" name="second_operand" placeholder="input second operand">
     </label>
     <p/>
-    <button name="submit" value="=" type="submit">=</button>
+    <button name="submit" value="=" type="submit">=</button> <p th:text="${result}"></p>
 </form>
 
 </body>
